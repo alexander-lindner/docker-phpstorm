@@ -1,5 +1,5 @@
 FROM debian:latest
-MAINTAINER Alexander Lindner<alexander.lindner@vantaio.com>
+MAINTAINER Alexander Lindner<mail@alindner.org>
 
 RUN apt-get update -q --fix-missing && apt-get -y upgrade
 RUN apt-get -y install git devscripts debhelper php5 php5-curl
